@@ -1,12 +1,132 @@
+/* Zmienne*/
+
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+ul {
+  list-style-type: none;
+}
 /*Nawigacja*/
+/*Webstudio*/
+.logo-blue {
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-black {
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.navigation {
+  color:var(--main-text-color)
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.contact {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
 /*Nagłówek strony i button*/
+.main-header{
+  color:#FFFFFF;
+  text-transform: uppercase;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-content: center;
+}
+.container{
+  background-color: #2F303A;
+  width:1600px;
+  height:600px;
+}
+.order-service{
+  background: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+width: 200px;
+height: 50px;
+color:#ffffff;
+}
 /*Lorem ipsum*/
+.content{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.content-item{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+  display:flex;
+}
+.flex{
+  display: flex;
+}
+
 /*Czym się zajmujemy*/
+.title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
 /*Zespół*/
+.title-2{
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.16';
+text-align: center;
+letter-spacing: 0.03em;
+}
+.our-team{
+width: 1600px;
+height: 648px;
+background: #F5F4FA;
+}
+.name{
+  font-weight: 500;
+  font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.profession{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+
+}
 /*Stopka-Adres*/
 
 /*PORTFOLIO*/
 /*Nawigacja strony*/
 /*Przyciski*/
 /*Portfolio-projekty*/
-/*Stopka-adres*/
+/*Stopka-adres*/ ;
