@@ -43,127 +43,138 @@
     </header>
     <main>
       <section>
-        <ul>
-          <li><button type="button">Wszystkie</button></li>
-          <li><button type="button">Strony</button></li>
-          <li><button type="button">Aplikacje</button></li>
-          <li><button type="button">Dizajn</button></li>
-          <li><button type="button">Marketing</button></li>
+        <ul class="flex">
+          <li><button type="button" class="button-all">Wszystkie</button></li>
+          <li><button type="button" class="button">Strony</button></li>
+          <li><button type="button" class="button">Aplikacje</button></li>
+          <li><button type="button" class="button">Dizajn</button></li>
+          <li><button type="button" class="button">Marketing</button></li>
         </ul>
       </section>
-      <ul>
+      <ul class="grid">
         <li>
-          <figure>
+          <figure class="grid-item">
             <img
               src="./images/Portfolio 1.jpg"
               alt="ekran komputera"
               width="370"
               height="294"
             />
-            <figcaption>Technocrack Strona internetowa</figcaption>
+            <figcaption><div class="project-name">Technocrack</div><div class="project-type">Strona internetowa</div>
+              </figcaption>
           </figure>
         </li>
         <li>
-          <figure>
+          <figure class="grid-item">
             <img
               src="./images/Portfolio 2 (2).jpg"
               alt="koszykówka"
               width="370"
               height="294"
             />
-            <figcaption>Grafika New Orlean vs Golden Star Dizajn</figcaption>
+            <figcaption><div class="project-name">Grafika New Orlean vs Golden Star</div><div class="project-type">Dizajn</div>
+               </figcaption>
           </figure>
         </li>
         <li>
-          <figure>
+          <figure class="grid-item">
             <img
               src="./images/Portfolio 3 (2).jpg"
               alt="Logo restauraci Seafood"
               width="370"
               height="294"
             />
-            <figcaption>Restauracja Seafood Aplikacja</figcaption>
+            <figcaption><div class="project-name">Restauracja Seafood</div><div class="project-type">Aplikacja</div>
+              </figcaption>
           </figure>
         </li>
         <li>
-          <figure>
+          <figure class="grid-item">
             <img
               src="./images/Portfolio 4 (2).jpg"
               alt="słuchawki"
               width="370"
               height="294"
             />
-            <figcaption>Projekt Prime Marketing</figcaption>
+            <figcaption><div class="project-name">Projekt Prime</div><div class="project-type">Marketing</div>
+            </figcaption>
           </figure>
         </li>
         <li>
-          <figure>
+          <figure class="grid-item">
             <img
               src="./images/Portfolio 6 (2).jpg"
               alt="pudełka"
               width="370"
               height="294"
             />
-            <figcaption>Projekt Boxes Aplikacja</figcaption>
+            <figcaption><div class="project-name">Projekt Boxes</div><div class="project-type">Aplikacja</div>
+              </figcaption>
           </figure>
         </li>
         <li>
-          <figure>
+          <figure class="grid-item">
             <img
               src="./images/Portfolio 6.jpg"
               alt="strona internetowa"
               width="370"
               height="294"
             />
-            <figcaption>
-              Inspiration has no Borders Strona internetowa
+            <figcaption><div class="project-name">Inspiration has no Borders</div><div class="project-type">Strona internetowa</div>
             </figcaption>
           </figure>
         </li>
         <li>
-          <figure>
+          <figure class="grid-item">
             <img
               src="./images/Portfolio 7.jpg"
               alt="magazyn limited edition"
               width="370"
               height="294"
             />
-            <figcaption>Magazyn Limited Edition Dizajn</figcaption>
+            <figcaption><div class="project-name">Magazyn Limited Edition</div><div class="project-type">Dizajn</div>
+            </figcaption>
           </figure>
         </li>
         <li>
-          <figure>
+          <figure class="grid-item">
             <img
               src="./images/Portfolio 8.jpg"
               alt="naklejka"
               width="370"
               height="294"
             />
-            <figcaption>Projekt LAB Marketing</figcaption>
+            <figcaption><div class="project-name">Project LAB</div><div class="project-type">Marketing</div>
+              Projekt LAB Marketing</figcaption>
           </figure>
         </li>
         <li>
-          <figure>
+          <figure class="grid-item">
             <img
               src="./images/Portfolio 9.jpg"
               alt="pisanie na komputerze"
               width="370"
               height="294"
             />
-            <figcaption>Growing Business Aplikacja</figcaption>
+            <figcaption><div class="project-name">Growing Business</div><div class="project-type">Aplikacja</div>
+            </figcaption>
           </figure>
         </li>
       </ul>
     </main>
     <footer>
-      <address>
-        WebStudio <br />
-        <a href="https://goo.gl/maps/XEC7NLXt9hba7miTA"
+      <address class="address">
+        <span class="logo-blue">Web</span
+        ><span class="logo-white">Studio</span> <br />
+        <a href="https://goo.gl/maps/XEC7NLXt9hba7miTA" class="google-maps"
           >m. Warszawa, Aleje Jerozolimskie 21</a
         >
         <br />
-        <a href="mailto:info@example.com">info@example.com</a><br />
-        <a href="tel:0048111111111">+48 111 111 111</a><br />
+        <a href="mailto:info@example.com" class="footer-contact"
+          >info@example.com</a
+        ><br />
+        <a href="tel:0048111111111" class="footer-contact">+48 111 111 111</a
+        ><br />
       </address>
     </footer>
   </body>
