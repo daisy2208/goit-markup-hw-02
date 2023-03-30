@@ -33,6 +33,10 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.navigation:hover{
+  cursor: pointer;
+}
+
 .contact {
   color: var(--secondary-text-color);
   font-style: normal;
@@ -189,8 +193,13 @@ padding:6px 22px;
 .button:hover{
   text-decoration:underline #2196f3;
   border:4px solid #2196f3;
+  cursor: pointer;
 }
 /*Portfolio-projekty*/
+.project:hover{
+  border:4px solid #2196f3;
+  cursor: pointer;
+}
 .grid{
   display:flex;
   flex-wrap:wrap;
